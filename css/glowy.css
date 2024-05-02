@@ -63,6 +63,7 @@ nav button {
 img {
     min-width: 300px;
     width: 50vw;
+    height: 50vw;
 }
 .entry .title {
     display:flex;
