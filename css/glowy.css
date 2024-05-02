@@ -62,7 +62,7 @@ nav button {
     border: 1px solid #fff;
     margin: 10px 0 10px 0;
 }
-img {
+.entry img {
     min-width: 250px;
     min-height: 250px;
     width: 50vw;
