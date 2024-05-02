@@ -60,6 +60,15 @@ nav button {
     border: 1px solid #fff;
     margin: 10px 0 10px 0;
 }
+img {
+    min-width: 300px;
+    width: 50vw;
+}
+.entry .title {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 footer {
     color: #bbbaba;
