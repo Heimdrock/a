@@ -1,12 +1,12 @@
 function menuBarOpen (){
-  document.getElementById("navBar").style.display="flex";
-  document.getElementById("navBar").style.height="auto";
+  document.getElementById("navBar").style.height="60px";
+  document.getElementById("pokediv").style.padding-bottom="60px";
   document.getElementById("menuOpen").style.display="none";
   document.getElementById("menuClose").style.display="inline";
 }
 function menuBarClose (){
-  document.getElementById("navBar").style.display="none";
-  document.getElementById("navBar").style.height="0";
+  document.getElementById("navBar").style.height="0px";
+  document.getElementById("pokediv").style.padding-bottom="0px";
   document.getElementById("menuOpen").style.display="inline";
   document.getElementById("menuClose").style.display="none";
 }
