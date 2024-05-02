@@ -52,7 +52,7 @@ nav button {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 1em 1em 4em 1em;
 }
 .entry {
     padding: 10px;
@@ -64,6 +64,7 @@ img {
     min-width: 300px;
     width: 50vw;
     height: 50vw;
+    align-self: center;
 }
 .entry .title {
     display:flex;
