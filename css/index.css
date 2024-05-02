@@ -57,7 +57,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-footer div {
+.footer {
     display: flex;
     flex-direction:row;
     justify-content:left;
