@@ -13,15 +13,16 @@ header {
     flex-direction: row;
     justify-content: left;
     flex-wrap:wrap;
+    font-size: 1rem;
+    padding: 1rem;
 }
 nav{
     align-items:center;
-
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
     flex-grow:1;
-    padding: 10px;
+    padding: 1rem;
 }
 nav button {
     color: #bbbaba;
@@ -68,7 +69,10 @@ footer div {
     justify-content:left;
     padding: 1rem;
 }
-#fttext {width:fit-content;}
+#fttext {
+    width:fit-content;
+    padding: 0;
+}
 #stylesheets {
     display:flex;
     flex-direction: row;
