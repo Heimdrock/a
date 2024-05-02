@@ -99,17 +99,26 @@ footer {
     header{
         flex-direction: column;
     }
+    #pokediv {
+        background-color: #0000;
+        padding-bottom:0px;
+        transition: 1s;
+    }
     nav{
         flex-direction: column;
         padding: 0;
+
+        position: fixed;
+        top: 5.5em;
+        overflow-y: hidden;
+        transition: 1s;
         /*Hide*/
-        display: none;
-        height: 0;
+        height: 0;        
     }
-    #menuOpen {
-        display:inline;
-    }
-    nav button{
+    #menuOpen  {     display:inline;    }
+    #menuClose {    display:none;    }
+    
+    nav button{ /*no borders*/
         width: 90vw;
         background-color: #0000;
         border: none;
