@@ -55,6 +55,7 @@ nav button {
     padding: 1em 1em 4em 1em;
 }
 .entry {
+    display: flex;
     padding: 10px;
     box-shadow: 0 0 10px 1px #ffffff60;
     border: 1px solid #fff;
