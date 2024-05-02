@@ -115,19 +115,17 @@ footer {
     }
     #pokediv {
         background-color: #0000;
-        padding-bottom:0px;
+        padding-bottom:0px; /*animation component 🐈*/
         transition: 0.5s;
     }
     nav{
         flex-direction: column;
         padding: 0;
-
-        position: fixed;
+        position: absolute;
         top: 5.5em;
         overflow-y: hidden;
         transition: 0.5s;
-        /*Hide*/
-        height: 0;        
+        height: 0;   /*animation component 🐈*/     
     }
     #menuOpen  {     display:inline;    }
     #menuClose {    display:none;    }
