@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HK's Blog</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=false">
-    <link rel="icon" href="../media/Icon.ico">
-    <link id="styleLink" rel="stylesheet" href="../a/css/index.css"> 
+    <title>Heimdrock</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="../a/media/Icon.ico">
+    <link id="styleLink" rel="stylesheet" href="../a/css/glowy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <h1>Blog</h1>
+        <div id="pokediv">
+            <h1>Blog</h1>
+            <button class="menu" id="menuOpen"><i class="fa fa-bars"></i></button>
+            <button class="menu" id="menuClose"><i class="fa fa-close"></i></button>
+        </div>
         <nav>
             <a href="../a/"><button>Home</button></a>
             <a href="../a/blog"><button>Blog</button></a>
             <a href="../a/gallery"><button>Gallery</button></a>
         </nav>
     </header>
-    <div class="content">
-        <div class="entry">
-            <h3>First pic</h3> 24/04/2024 </br>
-            <p>Yay!</p>
-            <img src="../a/media/img001.jpg">
+    <main>
+        <div class="content">
+            <div class="entry">
+                <h3>About me</h3>
+                <p>I am just lying around for now</p>
+            </div>
+            <div class="entry">
+                <h3>:3</h3>
+                <p>Meow meow maw</p>
+            </div>
         </div>
-    </div>
+    </main>
     <footer>
         <div class="footer">
             <div id="fttext">Heimdrock</div>
             <div id="stylesheets">
                 <button class="stylechanger" id="css1" onclick="css1Function()"> </button>
                 <button class="stylechanger" id="css2" onclick="css2Function()"> </button>
-                <button class="stylechanger" id="css3"> </button>
+                <button class="stylechanger" id="css3" onclick="css3Function()"> </button>
             </div>
         </div>
     </footer>
 </body>
-<script src="../javascript/Index.js"></script>
+<script src="../a/javascript/index.js"></script>
 </html>
