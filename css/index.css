@@ -13,8 +13,6 @@ header {
     flex-direction: row;
     justify-content: left;
     flex-wrap:wrap;
-    font-size: 2em;
-    padding: 1rem;
 }
 nav{
     align-items:center;
