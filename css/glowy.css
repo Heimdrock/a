@@ -127,6 +127,9 @@ footer {
         transition: 0.5s;
         height: 0;   /*animation component 🐈*/     
     }
+    nav button:hover {
+        box-shadow: 0 0 1px 1px #0000;
+    }
     #menuOpen  {     display:inline;    }
     #menuClose {    display:none;    }
     
